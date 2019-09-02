@@ -1,37 +1,30 @@
-# 第一个Vue练习-Counter组件
+# my-project
 
-## 要求
+> A Vue.js project
 
-1. 通过Vue-Cli 的**vue create counter**, 创建Vue开发栈
+## Build Setup
 
-1. 在此栈中实现Counter组件：
+``` bash
+# install dependencies
+npm install
 
-> **两个按钮 “+” 和 “-”**
+# serve with hot reload at localhost:8080
+npm run dev
 
-> **一个文字显示区域 span，初始值为0**
+# build for production with minification
+npm run build
 
-> **当点击“+”后 显示区域显示1，如继续点击，按此规矩累加**
+# build for production and view the bundle analyzer report
+npm run build --report
 
-> **当点击“-”后 显示区域显示数字需要减1，如继续点击，按此规矩累减**
+# run unit tests
+npm run unit
 
-## 编程题答题流程
+# run e2e tests
+npm run e2e
 
-- 在命令行中使用以下命令在用户本地任意目录下clone此题目库
+# run all tests
+npm test
+```
 
-git clone repo_of_this_template
-
-- 仔细阅读题目要求和题目描述（题目的README.md中），完成题目
-
-- 在github上创建远端仓库(此处使用**your_remote_repo**代替你在github上创建的远端仓库)
-
-- 设置远程仓库
-
-`git remote set-url origin your_remote_repo`
-
-- 在本地使用git提交(commit)并上传(push)，之后将github仓库地址(your_remote_repo) eg:（[https://github.com/username/your_remote_repo）](https://github.com/username/your_remote_repo%EF%BC%89) 填入到提交地址一栏
-
-- 获取分支（该题目分支填写master即可）
-
-- 提交
-
-- 等待结果
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
